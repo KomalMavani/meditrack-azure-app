@@ -10,9 +10,6 @@ const swaggerUi = require("swagger-ui-express");
 const cors = require('cors');
 app.use(cors());
 
-
-
-
 // Connect to MongoDB
 connectDB();
 
